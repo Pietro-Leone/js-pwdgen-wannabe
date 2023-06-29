@@ -18,28 +18,77 @@
 
     <!-- Header -->
     <header>
-        <div class="bg-primary text-white text-center py-3">
+        <div class="bg-primary text-white text-center py-3 rounded-3 m-2">
             <h1>Generatore Password</h1>
         </div>
     </header>
 
     <!-- Main -->
     <main>
-        <div class="container-sm bg-primary bg-primary.bg-gradient text-white my-5 rounded">
-            <div class="row p-5">
-                <div class="col-6 text-end">
-                    <h3 class="py-3">Il tuo nome è:</h3>
-                    <h3 class="py-3">Il tuo cognome è:</h3>
-                    <h3 class="py-3">la tua età è:</h3>
-                    <h3 class="py-3">Il tuo colore preferito è:</h3>
-                    <h1 class="py-3">La password generata è:</h1>
+        <div class="container-sm bg-primary bg-primary.bg-gradient my-5 rounded-4">
+            <!-- riga nome -->
+            <div class="row pt-3">
+                <div class="col-6">
+                    <div class="bg-white rounded-3">
+                        <h3 class="py-3">Il tuo nome è:</h3>
+                    </div>
                 </div>
                 <div class="col-6 text-center">
-                    <h3 id="name" class="py-3"></h3>
-                    <h3 id="surname" class="py-3"></h3>
-                    <h3 id="age" class="py-3"></h3>
-                    <h3 id="favoriteColor" class="py-3"></h3>
-                    <h1 id="password" class="py-3"></h1>
+                    <div class="bg-white rounded-3">
+                        <h3 id="name" class="py-3"></h3>
+                    </div>
+                </div>
+            </div>
+            <!-- riga cognome -->
+            <div class="row">
+                <div class="col-6">
+                    <div class="bg-white rounded-3">
+                        <h3 class="py-3">Il tuo cognome è:</h3>
+                    </div>
+                </div>
+                <div class="col-6 text-center">
+                    <div class="bg-white rounded-3">
+                        <h3 id="surname" class="py-3"></h3>
+                    </div>
+                </div>
+            </div>
+            <!-- riga età -->
+            <div class="row">
+                <div class="col-6">
+                    <div class="bg-white rounded-3">
+                        <h3 class="py-3">la tua età è:</h3>
+                    </div>
+                </div>
+                <div class="col-6 text-center">
+                    <div class="bg-white rounded-3">
+                        <h3 id="age" class="py-3"></h3>
+                    </div>
+                </div>
+            </div>
+            <!-- riga colore -->
+            <div class="row">
+                <div class="col-6">
+                    <div class="bg-white rounded-3">
+                        <h3 class="py-3">Il tuo colore preferito è:</h3>
+                    </div>
+                </div>
+                <div class="col-6 text-center">
+                    <div class="bg-white rounded-3">
+                        <h3 id="favoriteColor" class="py-3"></h3>
+                    </div>
+                </div>
+            </div>
+            <!-- riga password -->
+            <div class="row py-3">
+                <div class="col-6">
+                    <div class="bg-white rounded-3">
+                        <h1 class="py-3">La password generata è:</h1>
+                    </div>
+                </div>
+                <div class="col-6 text-center">
+                    <div class="bg-white rounded-3">
+                        <h1 id="password" class="py-3"></h1>
+                    </div>
                 </div>
             </div>
         </div>
